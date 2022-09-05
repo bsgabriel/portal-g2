@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,8 +10,8 @@
   <body>
     <header class="cabecalho">
       <div class="cabecalho-container">
-        <a>G2</a>
-        <button class="btn-assinar">Assine</button>
+        <a class="logo-cabecalho">G2</a>
+        <a data-modal="abrir">Assine</a>
       </div>
     </header>
     <section class="principais-noticias">
@@ -98,5 +98,24 @@
     <footer class="footer">
       <p>Programação de aplicações Web I - Gabriel B. da Silveira</p>
     </footer>
+    <section class="modalContainer" data-modal="container">
+      <div class="modal">
+        <button data-modal="fechar" class="fechar"></button>
+        <form action="">
+          <label for="fldNome">Nome</label>
+          <input type="text" for="fldNome" id="fldNome">
+          <label for="fldCpf">CPF</label>
+          <input type="text" for="fldCpf" id="fldCpf">
+          <label for="fldDtaNascimento">Data de Nascimento</label>
+          <input type="date" for="fldDtaNascimento" id="fldDtaNascimento">
+          <label for="fldEndereco">Endereço</label>
+          <input type="text" for="fldEndereco" id="fldEndereco">
+          <label for="fldEmail">Email</label>
+          <input type="email" for="fldEmail" id="fldEmail">
+          <button type="submit">Confirmar</button>
+        </form>
+      </div>
+    </section>
+    <script type="module" src="js/script.js"></script>
   </body>
 </html>

@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-.cabecalho a {
+.cabecalho .logo-cabecalho {
   display: block;
   color: white;
   font-size: 30px;
