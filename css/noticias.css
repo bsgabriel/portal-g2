@@ -43,13 +43,14 @@
   padding: 20px 0 0 20px;
 }
 
-.noticia-text h2 {
+.noticia-text a {
   color: #a6130a;
   font-size: 24px;
-  /* margin-bottom: 10px; */
+  font-weight: bold;
 }
 
 .noticia-text p {
   color: #555555;
   font-size: 16px;
+  margin-top: 5px;
 }
