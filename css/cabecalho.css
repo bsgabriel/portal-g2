@@ -1,7 +1,6 @@
 .cabecalho {
   padding: 0;
   background-color: #c4170c;
-  height: 60px;
 }
 
 .cabecalho-container {
@@ -14,21 +13,22 @@
   align-items: center;
 }
 
-.cabecalho .logo-cabecalho {
-  display: block;
+.cabecalho a {
   color: white;
+  text-align: center;
+}
+
+.cabecalho .logo-cabecalho a {
   font-size: 30px;
   font-weight: bold;
 }
 
-.btn-assinar {
-  background-color: #a6130a;
-  width: 100px;
-  height: 40px;
-  border: none;
-  border-radius: 0 100px 100px 0;
-  border-radius: 5px;
-  color: #cccccc;
-  font-size: 16px;
-  letter-spacing: 3px;
+.cabecalho .assinar {
+  font-size: 20px;
+  letter-spacing: 2.5px;
+  cursor: pointer;
+}
+
+.cabecalho .assinar:hover {
+  color: #eeeeee;
 }
