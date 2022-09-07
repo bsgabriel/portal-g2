@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>G2 - O portal de notícias do globo</title>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="cabecalho-container">
+        <div class="logo-cabecalho">
+          <a href="index.html">G2</a>
+        </div>
+        <a class="assinar" data-modal="abrir">Assine</a>
+      </div>
+    </header>
+    <section class="main">
+      <div class="introducao border">
+        <h1>Relembre o atentado à Torre Arasaka</h1>
+        <p>O "Holocausto de Night City", também conhecido como "Bombardeio à sede Arasaka", foi um desastre nuclear em Night City que ocorreu em 20 de agosto de 2023.</p>
+      </div>
+      <div class="imagem-noticia">
+        <img src="image/arasaka-tower.jpg" alt="Torre Arasaka">
+      </div>
+      <article class="topico">
+        <h2>A explosão</h2>
+        <p>Durante a Quarta Guerra das Corporações, uma equipe da Militech, liderada por Morgan Blackhand e Johnny Silverhand, cumpria uma missão de infiltração à sede da Arasaka para destruir o Projeto de Banco de Dados Relicário. O plano consistia em usar um dispositivo nuclear tático para destruir o dispositivo, aproveitando a estrutura do predio, um complexo fortemente blindado, para absorver o impacto da explosão e evitar uma destruição em massa. No entando, por conta do tiroteio entre as Forças Especiais da Militech e os soldados da Arasaka, o dispositivo explodiu antes do previsto, detonando o 120º andar da torre sul, dentro do apartamento-bunker de Kei Arasaka.</p>
+        <p>A explosão destruiu instantaneamente as Torres Arasaka, partindo-as no meio, fazendo com que as duas estruturas desabassem. Em questão de segundos, a cidade se tornou ruínas, matando a maior parte das pessoas que estavam nas imediações. A explosão incinerou mais de 12.000 pessoas nas proximidades, e feriu fatalmente mais de meio milhão de pessoas.</p>
+      </article>
+    </section>
+    <footer class="footer">
+      <p>Programação de aplicações Web I - Gabriel B. da Silveira</p>
+    </footer>
+    <section class="modalContainer" data-modal="container">
+      <div class="modal">
+        <button data-modal="fechar" class="fechar"></button>
+        <form action="">
+          <label for="fldNome">Nome</label>
+          <input type="text" for="fldNome" id="fldNome">
+          <label for="fldCpf">CPF</label>
+          <input type="text" for="fldCpf" id="fldCpf">
+          <label for="fldDtaNascimento">Data de Nascimento</label>
+          <input type="date" for="fldDtaNascimento" id="fldDtaNascimento">
+          <label for="fldEndereco">Endereço</label>
+          <input type="text" for="fldEndereco" id="fldEndereco">
+          <label for="fldEmail">Email</label>
+          <input type="email" for="fldEmail" id="fldEmail">
+          <button type="submit">Confirmar</button>
+        </form>
+      </div>
+    </section>
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>
