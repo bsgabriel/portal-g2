@@ -1,0 +1,43 @@
+.introducao {
+  width: 900px;
+  margin: 50px auto 50px auto;
+  padding: 20px 0 20px 0;
+}
+
+.introducao h1 {
+  font-size: 56px;
+  line-height: 62px;
+  margin-bottom: 20px;
+}
+
+.introducao p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #555555;
+}
+
+.imagem-noticia {
+  margin-bottom: 20px;
+}
+
+.imagem-noticia img {
+  width: 100%;
+  display: block;
+}
+
+.topico {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.topico h2 {
+  font-size: 36px;
+}
+
+.topico p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #222222;
+  margin: 20px 0 20px 0;
+  text-align: justify;
+}
