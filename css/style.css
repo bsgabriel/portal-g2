@@ -1,6 +1,7 @@
 @import "reset.css";
 @import "cabecalho.css";
 @import "noticias-destaque.css";
-@import "noticias.css";
+@import "lista-noticia.css";
 @import "footer.css";
 @import "modal.css";
+@import "noticia-pagina.css";
